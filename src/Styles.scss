@@ -1,0 +1,48 @@
+* {
+    //border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#developer {
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+#quote-box {
+    width: 534px;
+}
+
+#text {
+    font-family: 'Raleway', sans-serif;
+}
+
+.blockquote-footer {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn-primary {
+    font-family: 'Roboto', sans-serif;
+}
+
+#new-quote {
+    border: none;
+}
+
+//animate.css
+#page-background {
+    animation: fadeIn;
+    animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+    #quote-box {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    #quote-box {
+        max-width: 400px;
+    }
+}
